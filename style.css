@@ -1,0 +1,95 @@
+body {
+	background-color: #bebfc5;
+	font-family: Arial
+}
+
+.menu {
+	background-color: #f0f0f0;
+	padding: 10px;
+	border: 1px solid #cccccc;
+	text-align: center;
+}
+
+.menu ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.menu li {
+	display: inline-block;
+	border-radius: 10px;
+	padding: 10px 20px;
+	border-right: 1px solid #cccccc;
+}
+
+.menu li:last-child {
+	border-right: none;
+}
+
+.menu li:hover {
+	background-color: #2044E1 ;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #000000;
+}
+.service_list a {
+	text-decoration:underline;
+	color:#000000;
+}
+.content {
+	margin-top: 20px;
+}
+
+.content div {
+	margin-bottom: 20px;
+}
+
+#services {
+	background-color: #ffffff; 
+	border: 1px solid #2044E1 ;
+	border-radius: 25px;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 20px;
+}
+#home {
+	background-color: #ffffff; 
+	border: 1px solid #2044E1 ;
+	border-radius: 25px;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 20px;
+}
+.about {
+	background-color: #ffffff; 
+	border: 1px solid #2044E1 ;
+	border-radius: 25px;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding:25px;
+	
+}
+.about img {
+	height: 100%;
+	width: 100%;
+	border-radius: 15px;
+}
+#contact {
+	background-color: #ffffff; 
+	border: 1px solid #2044E1 ;
+	border-radius: 25px;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 20px;
+}
+#faq {
+	background-color: #ffffff; 
+	border: 1px solid #2044E1 ;
+	border-radius: 25px;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 20px;
+}
